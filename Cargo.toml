@@ -1,0 +1,12 @@
+[package]
+name = "rknn-inspect"
+version = "0.3.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+rknpu2 = { version = "0.0.8", features = [
+    "libloading",
+    "rk3576",
+] }
+stanza = "0.5.2"
